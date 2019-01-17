@@ -150,6 +150,7 @@
         position: relative;
         width: 300px;
         padding: 25px 0;
+        border: 2px solid #362f2d;
         border: 2px solid var(--black);
     }
 
@@ -325,6 +326,7 @@
 
     .tariff-list {
         padding-left: 20px;
+        border-left: 2px solid #ea4c3e;
         border-left: 2px solid var(--red);
         position: relative;
     }
@@ -362,6 +364,7 @@
         height: 50px;
         bottom: -26px;
         left: 25px;
+        background-color: #fff6da;
         background-color: var(--white);
     }
 
@@ -727,6 +730,7 @@
 @media only screen and (max-width: 650px) {
     .map {
         background-image: none;
+        background-color: #362f2d;
         background-color: var(--black);
     }
 
@@ -763,7 +767,8 @@
 
     .section--theme--services {
         background-image: none;
-        background-color: var(--black)
+        background-color: #362f2d;
+        background-color: var(--black);
     }
 
     .section--theme--prices {
